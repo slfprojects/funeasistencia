@@ -1,0 +1,80 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< ve.org.seguros.devoluciones:service >-----------------
+[INFO] Building service 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.7.1:run (default-cli) > test-compile @ service >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 100 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\ymedina.SEGUROSLAFE\Documents\ServiciosFunerarios\service\service\service\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.7.1:run (default-cli) < test-compile @ service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.1:run (default-cli) @ service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2022-07-20 15:23:40.590  INFO 6272 --- [           main] v.o.s.f.service.ServiceApplication       : Starting ServiceApplication using Java 17.0.3.1 on DES-04-100-I with PID 6272 (C:\Users\ymedina.SEGUROSLAFE\Documents\ServiciosFunerarios\service\service\service\target\classes started by ymedina in C:\Users\ymedina.SEGUROSLAFE\Documents\ServiciosFunerarios\service\service\service)
+2022-07-20 15:23:40.593  INFO 6272 --- [           main] v.o.s.f.service.ServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-07-20 15:23:41.237  INFO 6272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-20 15:23:41.376  INFO 6272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 23 JPA repository interfaces.
+2022-07-20 15:23:42.322  INFO 6272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2022-07-20 15:23:42.336  INFO 6272 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-20 15:23:42.336  INFO 6272 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-20 15:23:42.754  INFO 6272 --- [           main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-20 15:23:42.781  INFO 6272 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-20 15:23:42.782  INFO 6272 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2108 ms
+2022-07-20 15:23:43.069  INFO 6272 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-20 15:23:43.394  INFO 6272 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-20 15:23:43.483  INFO 6272 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-20 15:23:43.603  INFO 6272 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-20 15:23:43.910  INFO 6272 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-20 15:23:44.090  INFO 6272 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-20 15:23:45.126  INFO 6272 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-20 15:23:45.137  INFO 6272 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-20 15:23:46.355  WARN 6272 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-20 15:23:46.797  INFO 6272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2022-07-20 15:23:46.819  INFO 6272 --- [           main] v.o.s.f.service.ServiceApplication       : Started ServiceApplication in 6.678 seconds (JVM running for 7.146)
+2022-07-20 15:24:23.461  INFO 6272 --- [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-20 15:24:23.462  INFO 6272 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-20 15:24:23.464  INFO 6272 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+<200,{"multicast_id":5908366550742942022,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1658345502104986%b72e45f9f9fd7ecd"}]},[Content-Type:"application/json; charset=UTF-8", Date:"Wed, 20 Jul 2022 19:31:42 GMT", Expires:"Wed, 20 Jul 2022 19:31:42 GMT", Cache-Control:"private, max-age=0", X-Content-Type-Options:"nosniff", X-Frame-Options:"SAMEORIGIN", Content-Security-Policy:"frame-ancestors 'self'", X-XSS-Protection:"1; mode=block", Server:"GSE", Alt-Svc:"h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"", Accept-Ranges:"none", Vary:"Accept-Encoding", Transfer-Encoding:"chunked"]>
+<200,{"multicast_id":5059593695069477105,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]},[Content-Type:"application/json; charset=UTF-8", Date:"Wed, 20 Jul 2022 19:31:42 GMT", Expires:"Wed, 20 Jul 2022 19:31:42 GMT", Cache-Control:"private, max-age=0", X-Content-Type-Options:"nosniff", X-Frame-Options:"SAMEORIGIN", Content-Security-Policy:"frame-ancestors 'self'", X-XSS-Protection:"1; mode=block", Server:"GSE", Alt-Svc:"h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"", Accept-Ranges:"none", Vary:"Accept-Encoding", Transfer-Encoding:"chunked"]>
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:35 h
+[INFO] Finished at: 2022-07-20T16:59:02-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.7.1:run (default-cli) on project service: Application finished with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+C:\Users\ymedina.SEGUROSLAFE\Documents\ServiciosFunerarios\service\service\service>

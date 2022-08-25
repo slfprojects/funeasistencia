@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('sans-serif'),url(/assets/vendor/css/fonts/PublicSans-VariableFont_wght.ttf) format('trueType');
+  }
+
+dt-center{
+	text-align: center;
+}
